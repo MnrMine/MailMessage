@@ -1,4 +1,4 @@
-# MailMessage
+# Identity_MailMessage
 Bu proje M&Y Yazlım Akademi ile ilerlettiğim eğitimin dördüncü projesidir.Dinamik mail işlemleri uygulamasını içermektedir.
 Kullanılan Template'yi Component kullanarak Partailview lere ayırarak kod kalabalığından kurtarıp, hataları en aza indirerek kolay kullanım sağlamaktadır.
 # Projeye Genel Bakış
