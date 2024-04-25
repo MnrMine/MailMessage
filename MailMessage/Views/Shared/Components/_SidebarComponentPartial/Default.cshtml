@@ -1,0 +1,58 @@
+﻿
+<div class="col-md-3">
+    <a href="/MailMessage/SendMessage" class="btn btn-primary btn-block mb-3">Yeni Mesaj</a>
+
+    <div class="card">
+        <div class="card-header">
+            
+
+            <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                    <i class="fas fa-minus"></i>
+                </button>
+            </div>
+        </div>
+        <div class="card-body p-0">
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item active">
+                    <a href="/MailMessage/Inbox/" class="nav-link">
+                        <i class="fas fa-inbox"></i> Gelen Kutusu
+                        <span class="badge bg-primary float-right">@ViewBag.Inbox</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/MailMessage/Sendbox/" class="nav-link">
+                        <i class="far fa-envelope"></i> Giden Kutusu
+                        <span class="badge bg-primary float-right">@ViewBag.Sendbox</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/Draft/DraftMessageList/" class="nav-link">
+                        <i class="far fa-file-alt"></i> Taslaklar
+                        <span class="badge bg-warning float-right">@ViewBag.Draft</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/MailMessage/TrashMessageList/" class="nav-link">
+                        <i class="far fa-trash-alt"></i> Çöp Kutusu
+                        <span class="badge bg-warning float-right">@ViewBag.Delete</span>
+                       
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/Profile/Index/" class="nav-link">
+                        <i class="fas fa-user"></i> Profilim
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/Login/LogOut/" class="nav-link">
+                        <i class="fas fa-power-off"></i> Çıkış Yap
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+    <!-- /.card -->
+</div>
